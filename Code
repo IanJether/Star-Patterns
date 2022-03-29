@@ -1,0 +1,223 @@
+/*
+        1= left upright triangle
+        2= left upside down triangle
+        3=time hour glass
+        4=Half our glass
+        5=pyramid
+        6= right upright triangle
+        7=right upside down triangle
+        8=diamond
+        9=half pyramid 
+        10= half pyramid margin
+        11= pattern
+        12= pattern 12
+        
+        
+        */
+        int assingment =1;
+        switch (assingment){
+            case 1:
+                for(int i=1;i<=5;i++){
+                    for(int j=1;j<=i;j++){
+                        System.out.print("*");
+                    }System.out.println();
+                }
+                break;
+            case 2:
+                for(int i=1;i<=5;i++){
+                    for(int j=i;j<=5;j++){
+                        System.out.print("*");
+                    }System.out.println();
+                }
+                break;
+            case 3:
+                 for(int i=1;i<=5;i++){
+                    for(int j=1;j<=i;j++){
+                        System.out.print(" ");
+                    }for(int j=i;j<=5;j++){
+                        System.out.print("*");
+                    }for(int j=i;j<5;j++){
+                        System.out.print("*");
+                    }
+                    System.out.println();
+                }
+                 for(int i=2;i<=5;i++){
+                    for(int j=i;j<=5;j++){
+                        System.out.print(" ");
+                    } for(int j=1;j<=i;j++){
+                        System.out.print("*");
+                    } for(int j=1;j<i;j++){
+                        System.out.print("*");
+                    }
+                    System.out.println();
+                }
+                 break;
+                 
+                 
+            case 4:
+                for(int i=1;i<=4;i++){
+                    
+                    for(int j=i;j<=5;j++){
+                        System.out.print("*");
+                    }System.out.println();
+                }
+                for(int i=1;i<=5;i++){
+                    for(int j=1;j<=i;j++){
+                        System.out.print("*");
+                    }System.out.println();
+                }
+                break;
+                
+            case 5:
+                
+                for(int i=1;i<=5;i++){
+                    for(int j=i;j<=5;j++){
+                        System.out.print(" ");
+                    }for(int j=1;j<i;j++){
+                        System.out.print("*");
+                    }for(int j=1;j<=i;j++){
+                        System.out.print("*");
+                    }
+                    
+                    
+                    System.out.println();
+                }
+                break;
+                
+            case 6:
+                
+                for(int i=1;i<=5;i++){
+                    for(int j=i;j<=5;j++){
+                        System.out.print(" ");
+                    }for(int j=1;j<=i;j++){
+                        System.out.print("*");
+                    }
+                    
+                    System.out.println();
+                }
+                break;
+                
+            case 7:
+                
+               for(int i=1;i<=5;i++){
+                     for(int j=1;j<=i;j++){
+                        System.out.print(" ");
+                    } for(int j=i;j<=5;j++){
+                        System.out.print("*");
+                    }
+                    
+                    System.out.println();
+                }
+                break;
+                
+            case 8:
+                for(int i=1;i<=5;i++){
+                    for(int j=i;j<=5;j++){
+                        System.out.print(" ");
+                    }for(int j=1;j<i;j++){
+                        System.out.print("*");
+                    }for(int j=1;j<=i;j++){
+                        System.out.print("*");
+                    }
+                    
+                    
+                    System.out.println();
+                }
+                
+                for(int i=1;i<=5;i++){
+                    for(int j=1;j<=i;j++){
+                        System.out.print(" ");
+                    }for(int j=i;j<5;j++){
+                        System.out.print("*");
+                    }for(int j=i;j<=5;j++){
+                        System.out.print("*");
+                    }
+                    
+                    
+                    System.out.println();
+                }
+                break;
+                
+            case 9:
+                
+                for(int i=1;i<=4;i++){
+                    for(int j=1;j<=i;j++){
+                        System.out.print("*");
+                    }System.out.println();
+                }
+                for(int i=1;i<=5;i++){
+                    
+                    for(int j=i;j<=5;j++){
+                        System.out.print("*");
+                    }System.out.println();
+                }
+                break;
+                
+            case 10:
+                for(int i=1;i<=4;i++){
+                    for(int j=i;j<=5;j++){
+                        System.out.print(" ");
+                    }for(int j=1;j<=i;j++){
+                        System.out.print("*");
+                    }
+                    
+                    System.out.println();
+                }
+                for(int i=1;i<=5;i++){
+                     for(int j=1;j<=i;j++){
+                        System.out.print(" ");
+                    } for(int j=i;j<=5;j++){
+                        System.out.print("*");
+                    }
+                    
+                    System.out.println();
+                }
+                break;
+             
+            case 11:
+                for(int i=1;i<=5;i++){
+                    for(int j=1;j<=i;j++){
+                        System.out.print("*");
+                    }
+                    for(int j=i;j<5;j++){
+                        System.out.print(" ");
+                    }for(int j=i;j<5;j++){
+                        System.out.print(" ");
+                    }
+                    for(int j=1;j<=i;j++){
+                        System.out.print("*");
+                    }System.out.println();
+                }
+                for(int i=1;i<=5;i++){
+                    for(int j=i;j<=5;j++){
+                        System.out.print("*");
+                    } for(int j=1;j<i;j++){
+                        System.out.print(" ");
+                    } for(int j=1;j<i;j++){
+                        System.out.print(" ");
+                    } for(int j=i;j<=5;j++){
+                        System.out.print("*");
+                    }
+                    
+                    System.out.println();
+                }
+                 break;
+            case 12:
+                for(int i=1;i<=5;i++){
+                    for(int j=i;j<=5;j++){
+                        System.out.print("*");
+                    } for(int j=1;j<i;j++){
+                        System.out.print(" ");
+                    } for(int j=1;j<i;j++){
+                        System.out.print(" ");
+                    } for(int j=i;j<=5;j++){
+                        System.out.print("*");
+                    }
+                    
+                    System.out.println();
+                }
+                break;
+        
+            default:
+                System.out.println("Invalid input-Please try again");
+    }
